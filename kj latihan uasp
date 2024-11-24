@@ -8,18 +8,33 @@
 >>> cd test
 
 # tampilkan path direktori saat ini
->>> ls
+>>> pwd
 
 # buat file kosong bernama 'empty.txt'
 >>> touch empty.txt
 
-# copy file '/etc/timezone' ke direktori ini
-...
+# copy file '/etc/timezone' ke direktori ini 
+>>> cp /etc/timezone .
+
 # ubah nama file 'timezone' menjadi 'tz.txt'
-...
+>>> mv timezone tz.txt
+
 # list isi direktori ini
-...
+>>> ls
+
 # pindah ke direktori parent
-...
+>>> cd ..
+
 # hapus direktori 'test' seisinya
+>>> rm -r test
+
+# temukan file dengan nama 'fdisk' memakai `locate`
+...
+# temukan file dengan nama 'fdisk' memakai `find`
+...
+# temukan file pada home anda yang ukurannya > 200 MB
+...
+# temukan file pada home anda yang diubah < 3 hari
+...
+# temukan file pada home anda yang diakses > 30 hari
 ...
