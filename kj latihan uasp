@@ -1,38 +1,38 @@
 # pindah ke direktori home anda
->>> cd
+cd
 
 # buat satu folder kosong 'test'
->>> mkdir test
+mkdir test
 
 # masuk ke direktori 'test'
->>> cd test
+cd test
 
 # tampilkan path direktori saat ini
->>> pwd
+pwd
 
 # buat file kosong bernama 'empty.txt'
->>> touch empty.txt
+touch empty.txt
 
 # copy file '/etc/timezone' ke direktori ini 
->>> cp /etc/timezone .
+cp /etc/timezone .
 
 # ubah nama file 'timezone' menjadi 'tz.txt'
->>> mv timezone tz.txt
+mv timezone tz.txt
 
 # list isi direktori ini
->>> ls
+ls
 
 # pindah ke direktori parent
->>> cd ..
+cd ..
 
 # hapus direktori 'test' seisinya
->>> rm -r test
+rm -r test
 
 # temukan file dengan nama 'fdisk' memakai `locate`
->>> locate fdisk
+locate fdisk
 
 # temukan file dengan nama 'fdisk' memakai `find`
->>> find / -name "fdisk"
+find / -name "fdisk"
 
 # temukan file pada home anda yang ukurannya > 200 MB
 find ~ -type f -size +200M
