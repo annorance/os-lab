@@ -1,5 +1,4 @@
-#!/bin/bash
-
+'''
 # pindah ke direktori home anda
 cd
 
@@ -74,3 +73,4 @@ kill -CONT %1
 
 # kirim sinyal TERM ke job tersebut
 kill -TERM %1
+'''
