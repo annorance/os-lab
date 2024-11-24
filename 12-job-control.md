@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # pindah ke direktori home anda
 cd
 
